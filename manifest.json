@@ -1,0 +1,27 @@
+{
+	"name": "Your GitHub Stars",
+	"version": "1.0.0",
+	"description": "Adds a link to your starred repositories on GitHub's navbar",
+	"homepage_url": "https://github.com/jorgegonzalez/stars",
+	"manifest_version": 2,
+	"minimum_chrome_version": "50",
+	"permissions": [
+		"https://github.com/*",
+		"https://gist.github.com/*"
+	],
+  "browser_action": {
+    "default_icon": "icon.png"
+	},
+	"content_scripts": [
+		{
+			"run_at": "document_end",
+			"matches": [
+				"https://github.com/*",
+				"https://gist.github.com/*"
+			],
+			"js": [
+				"stars.js"
+			]
+		}
+	]
+}
