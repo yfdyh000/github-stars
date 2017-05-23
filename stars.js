@@ -12,7 +12,7 @@ for (tag of metaTags) {
 const nav = document.getElementsByClassName('header-nav float-left').item(0);
 const li = document.createElement('li');
 const a = document.createElement('a');
-const text = document.createTextNode('Your stars');
+const text = document.createTextNode('Stars');
 
 // Append to document
 a.href = `https://github.com/${username}?tab=stars`;
