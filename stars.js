@@ -1,5 +1,5 @@
 // Get username
-const username = document.querySelector('meta[name="user-login"]');
+const username = document.querySelector('meta[name="user-login"]')
 
 // Create elements
 const nav = document.getElementsByClassName('d-flex list-style-none').item(0)
