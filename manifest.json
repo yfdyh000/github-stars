@@ -1,5 +1,5 @@
 {
-	"name": "Your GitHub Stars",
+	"name": "GitHub Stars",
 	"version": "1.0.0",
 	"description": "Adds a link to your starred repositories on GitHub's navigation bar.",
 	"homepage_url": "https://github.com/jorgegonzalez/stars",
@@ -9,8 +9,8 @@
 		"https://github.com/*",
 		"https://gist.github.com/*"
 	],
-  "browser_action": {
-    "default_icon": "icon.png"
+	"browser_action": {
+		"default_icon": "icon.png"
 	},
 	"content_scripts": [
 		{
