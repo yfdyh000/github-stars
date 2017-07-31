@@ -2,7 +2,7 @@
 	"name": "GitHub Stars",
 	"version": "1.0.0",
 	"description": "Adds a link to your starred repositories on GitHub's navigation bar.",
-	"homepage_url": "https://github.com/jorgegonzalez/stars",
+	"homepage_url": "https://github.com/jorgegonzalez/github-stars",
 	"manifest_version": 2,
 	"minimum_chrome_version": "50",
 	"permissions": [
