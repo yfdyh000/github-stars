@@ -1,12 +1,5 @@
 // Get username
-const metaTags = document.getElementsByTagName('meta')
-let username
-
-for (tag of metaTags) {
-  if (tag.getAttribute('name') == 'user-login') {
-    username = tag.getAttribute('content')
-  }
-}
+const username = document.querySelector('meta[name="user-login"]');
 
 // Create elements
 const nav = document.getElementsByClassName('d-flex list-style-none').item(0)
